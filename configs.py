@@ -4,14 +4,14 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	API_ID = int(os.environ.get("API_ID", "23080322"))
+	API_HASH = os.environ.get("API_HASH","b3611c291bf82d917637d61e4a136535"")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","7128726719:AAET7ntvWnMAvMZQKlbhd3xC3xfO2DS6nG8")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME","")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002111184944"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6214889840"))
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://filestore:Aaryan1234@cluster0.lvm6yls.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002111184944")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -31,17 +31,7 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 ├🔹📚 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 │
 ├🔹📡 **Hosted On:** [Heroku](https://heroku.com)
-│
-├🔸👨‍💻 **Developer:** [@GreyMatter_Owner](https://t.me/GreyMatter_Owner) 
-│
-├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/greymatters_bots_discussion)
-│
-├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/greymatter_bots)
-│
-╰──────[ 😎 ]───────────⍟
-"""
-	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@GreyMatter_Owner](https://t.me/GreyMatter_Owner) 
+╰──────[ 😎 ]──────────
 
 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐢𝐬 𝐒𝐮𝐩𝐞𝐫 𝐍𝐨𝐨𝐛. 𝐉𝐮𝐬𝐭 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐨𝐜𝐬. 𝐀𝐧𝐝 𝐒𝐞𝐞𝐤𝐢𝐧𝐠 𝐇𝐞𝐥𝐩 𝐅𝐫𝐨𝐦 𝐏𝐫𝐨 𝐂𝐨𝐝𝐞𝐫𝐬\n**@GreyMatter_Bots**
 
