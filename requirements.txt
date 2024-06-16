@@ -1,9 +1,9 @@
-Pyrogram==2.0.30
+Pyrogram
 TgCrypto
 motor
 aiofiles
 dnspython
 psutil
-Flask==2.2.2
-gunicorn==20.1.0
-aiohttp==3.8.1
+Flask
+gunicorn
+aiohttp
